@@ -4,7 +4,7 @@
     <title>Notes - Articles</title>
     <description>Write an awesome description for your new site here.</description>
     <link>
-    http://localhost:4000https://vinci.space</link>
+    http://localhost:4000</link>
     
       
       <item>
@@ -18,8 +18,8 @@
         
         <pubDate>Sat, 01 Feb 2020 00:00:00 +0800</pubDate>
         <link>
-        http://localhost:4000https://vinci.space/%E6%9F%A5%E6%89%BE%E5%92%8C%E6%9D%80%E8%BF%9B%E7%A8%8B%E7%9A%84%E5%91%BD%E4%BB%A4.html</link>
-        <guid isPermaLink="true">http://localhost:4000https://vinci.space/%E6%9F%A5%E6%89%BE%E5%92%8C%E6%9D%80%E8%BF%9B%E7%A8%8B%E7%9A%84%E5%91%BD%E4%BB%A4.html</guid>
+        http://localhost:4000/%E6%9F%A5%E6%89%BE%E5%92%8C%E6%9D%80%E8%BF%9B%E7%A8%8B%E7%9A%84%E5%91%BD%E4%BB%A4.html</link>
+        <guid isPermaLink="true">http://localhost:4000/%E6%9F%A5%E6%89%BE%E5%92%8C%E6%9D%80%E8%BF%9B%E7%A8%8B%E7%9A%84%E5%91%BD%E4%BB%A4.html</guid>
       </item>
       
     
@@ -32,8 +32,8 @@
         
         <pubDate>Sat, 01 Feb 2020 00:00:00 +0800</pubDate>
         <link>
-        http://localhost:4000https://vinci.space/Jekyll%E7%9B%B8%E5%85%B3%E8%B5%84%E6%96%99.html</link>
-        <guid isPermaLink="true">http://localhost:4000https://vinci.space/Jekyll%E7%9B%B8%E5%85%B3%E8%B5%84%E6%96%99.html</guid>
+        http://localhost:4000/Jekyll%E7%9B%B8%E5%85%B3%E8%B5%84%E6%96%99.html</link>
+        <guid isPermaLink="true">http://localhost:4000/Jekyll%E7%9B%B8%E5%85%B3%E8%B5%84%E6%96%99.html</guid>
       </item>
       
     
@@ -46,8 +46,8 @@
         
         <pubDate>Thu, 11 Feb 2016 00:00:00 +0800</pubDate>
         <link>
-        http://localhost:4000https://vinci.space/features.html</link>
-        <guid isPermaLink="true">http://localhost:4000https://vinci.space/features.html</guid>
+        http://localhost:4000/features.html</link>
+        <guid isPermaLink="true">http://localhost:4000/features.html</guid>
       </item>
       
     
@@ -60,8 +60,8 @@
         
         <pubDate>Thu, 11 Feb 2016 00:00:00 +0800</pubDate>
         <link>
-        http://localhost:4000https://vinci.space/documentation.html</link>
-        <guid isPermaLink="true">http://localhost:4000https://vinci.space/documentation.html</guid>
+        http://localhost:4000/documentation.html</link>
+        <guid isPermaLink="true">http://localhost:4000/documentation.html</guid>
       </item>
       
     
@@ -74,8 +74,8 @@
         
         <pubDate>Wed, 10 Feb 2016 00:00:00 +0800</pubDate>
         <link>
-        http://localhost:4000https://vinci.space/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://localhost:4000https://vinci.space/welcome-to-jekyll.html</guid>
+        http://localhost:4000/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://localhost:4000/welcome-to-jekyll.html</guid>
       </item>
       
     
@@ -88,8 +88,8 @@
         
         <pubDate>Wed, 10 Feb 2016 00:00:00 +0800</pubDate>
         <link>
-        http://localhost:4000https://vinci.space/testing.html</link>
-        <guid isPermaLink="true">http://localhost:4000https://vinci.space/testing.html</guid>
+        http://localhost:4000/testing.html</link>
+        <guid isPermaLink="true">http://localhost:4000/testing.html</guid>
       </item>
       
     
@@ -102,8 +102,8 @@
         
         <pubDate>Wed, 10 Feb 2016 00:00:00 +0800</pubDate>
         <link>
-        http://localhost:4000https://vinci.space/guest-posts.html</link>
-        <guid isPermaLink="true">http://localhost:4000https://vinci.space/guest-posts.html</guid>
+        http://localhost:4000/guest-posts.html</link>
+        <guid isPermaLink="true">http://localhost:4000/guest-posts.html</guid>
       </item>
       
     
@@ -116,8 +116,8 @@
         
         <pubDate>Wed, 10 Feb 2016 00:00:00 +0800</pubDate>
         <link>
-        http://localhost:4000https://vinci.space/example-content.html</link>
-        <guid isPermaLink="true">http://localhost:4000https://vinci.space/example-content.html</guid>
+        http://localhost:4000/example-content.html</link>
+        <guid isPermaLink="true">http://localhost:4000/example-content.html</guid>
       </item>
       
     

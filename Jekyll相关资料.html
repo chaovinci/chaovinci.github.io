@@ -5,18 +5,18 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords" content="blog, accent, , Notes, jekyll">
-    <meta name="author" content="">
+    <meta name="keywords" content=" Notes">
     
     
     
     <meta name="description" content="Write an awesome description for your new site here.">
     <link href='https://fonts.googleapis.com/css?family=Roboto+Mono:400,300,500,700|Ubuntu:400,300,300italic,500,700|Montserrat' rel='stylesheet' type='text/css'>
-    <link rel="alternate" type="application/rss+xml" title="Notes RSS" href="/feed.xml" />
-    <link rel="stylesheet" href="https://vinci.space/css/main.css">
+    <link rel="alternate" type="application/rss+xml" title="Notes RSS" href="/feed.xml" >
+    <link rel="stylesheet" href="/css/main.css">
     
-        <link rel="icon" type="image/ico" href="./images/favicon.ico">
-        <link rel="shortcut-icon" type="image/ico" href="./images/favicon.ico">
+        <link rel="icon" type="image/ico" href="images/favicon.ico" type="image/vnd.microsoft.icon">
+        <link rel="shortcut-icon" type="image/ico" href="images/favicon.ico" type="image/vnd.microsoft.icon">
+
     
 
 </head>
@@ -24,7 +24,7 @@
     <div class="wrapper">
         <div class="main">
             <nav class="navbar">
-                <a href="https://vinci.space/">
+                <a href="/">
                     <span class="alignable pull-left back-outer">
                         <span class="alignable pull-left back-inner">
                         </span>
@@ -60,65 +60,44 @@
 <span class="n">bundle</span> <span class="nb">exec</span> <span class="n">jekyll</span> <span class="n">serve</span>
 <span class="c1"># =&gt; 打开浏览器 http://localhost:4000</span></code></pre></figure>
 
+<p>####gitPull和Push</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="c1">#初次使用</span>
+<span class="n">echo</span> <span class="s2">"# testgit"</span> <span class="o">&gt;&gt;</span> <span class="no">README</span><span class="p">.</span><span class="nf">md</span>
+<span class="n">git</span> <span class="n">init</span>
+<span class="n">git</span> <span class="n">add</span> <span class="no">README</span><span class="p">.</span><span class="nf">md</span>
+<span class="n">git</span> <span class="n">commit</span> <span class="o">-</span><span class="n">m</span> <span class="s2">"first commit"</span>
+<span class="n">git</span> <span class="n">remote</span> <span class="n">add</span> <span class="n">origin</span> <span class="n">git</span><span class="vi">@github</span><span class="p">.</span><span class="nf">com</span><span class="ss">:chaovinci</span><span class="o">/</span><span class="n">chaovinci</span><span class="p">.</span><span class="nf">github</span><span class="p">.</span><span class="nf">io</span><span class="p">.</span><span class="nf">git</span>
+<span class="n">git</span> <span class="n">push</span> <span class="o">-</span><span class="n">u</span> <span class="n">origin</span> <span class="n">master</span>
+
+<span class="c1">#</span>
+<span class="n">git</span> <span class="n">remote</span> <span class="n">add</span> <span class="n">origin</span> <span class="n">git</span><span class="vi">@github</span><span class="p">.</span><span class="nf">com</span><span class="ss">:chaovinci</span><span class="o">/</span><span class="n">testgit</span><span class="p">.</span><span class="nf">git</span>
+<span class="n">git</span> <span class="n">push</span> <span class="o">-</span><span class="n">u</span> <span class="n">origin</span> <span class="n">master</span>
+<span class="c1">#</span>
+<span class="c1">#正常push</span>
+<span class="n">git</span> <span class="n">status</span>
+<span class="n">git</span> <span class="n">add</span> <span class="p">.</span>
+<span class="nf">git</span> <span class="n">commit</span> <span class="o">-</span><span class="n">m</span> <span class="s2">"something"</span>
+<span class="n">git</span> <span class="n">push</span> <span class="n">origin</span> <span class="n">master</span>
+
+
+<span class="n">git</span> <span class="n">init</span>
+<span class="c1">#Initialized empty Git repository in /Users/dc/code/accent/_site/.git/</span>
+<span class="n">git</span> <span class="n">pull</span> <span class="n">git</span><span class="vi">@github</span><span class="p">.</span><span class="nf">com</span><span class="ss">:chaovinci</span><span class="o">/</span><span class="n">chaovinci</span><span class="p">.</span><span class="nf">github</span><span class="p">.</span><span class="nf">io</span><span class="p">.</span><span class="nf">git</span>
+<span class="n">git</span> <span class="n">remote</span> <span class="n">add</span> <span class="n">origin</span> <span class="n">git</span><span class="vi">@github</span><span class="p">.</span><span class="nf">com</span><span class="ss">:chaovinci</span><span class="o">/</span><span class="n">chaovinci</span><span class="p">.</span><span class="nf">github</span><span class="p">.</span><span class="nf">io</span><span class="p">.</span><span class="nf">git</span>
+<span class="n">git</span> <span class="n">push</span> <span class="o">-</span><span class="n">u</span> <span class="n">origin</span> <span class="n">master</span></code></pre></figure>
+
 
 </div>
 
-
-<!-- 
-    <div class="container">
-    <hr />
-    
-        
-        
-            <div id="img-about">
-                <img class="about-img pull-left" src="images/temp.png">
-            </div>
-        
-        <div class="about-stub">
-            
-            <a class="different-highlight" href="about">
-                <h2 style="font-family: Montserrat">
-                    
-                        
-                    
-                </h2>
-            </a>
-            
-                <p id="about-description" style="margin-top: 4px;">
-                    Keep this sentence less than 13 words or it won't look good.
-
-                </p>
-            
-        </div>
-    
-</div>
-<div style="clear:both"></div>
-
-
- -->
 
         </div>
     </div>
     <footer>
     
 
-    
-    <div class="container page-suggestion">
-        
-            <a class="button alignable pull-left" href="https://vinci.space/%E6%9F%A5%E6%89%BE%E5%92%8C%E6%9D%80%E8%BF%9B%E7%A8%8B%E7%9A%84%E5%91%BD%E4%BB%A4.html">
-                &larr; 查找和杀进程的命令
-            </a>
-        
-        
-            <a class="button alignable pull-right" href="https://vinci.space/features.html">
-                Features &rarr;
-            </a>
-        
-    </div>
-    <div style="clear:both"></div>
 
-
-    
+<!--      -->
     <hr />
     <div class="user-footer">
         <div class="copyright alignable pull-left">
@@ -127,49 +106,19 @@
             
         </div>
         <div class="alignable pull-right">
-            <a href="https://vinci.space" class="button">
+            <a href="/" class="button">
                 >Notes
             </a>
-            <a href="https://vinci.space/tagged" class="button">
+            <a href="/tagged" class="button">
                 Tagged
             </a>
-<!--             <a target="_blank" href="http://localhost:4000https://vinci.space/feed.xml" class="button">
-                rss
-            </a> -->
         </div>
     </div>
     <div style="clear:both"></div>
     <hr />
-<!--     <div class="theme-footer">
-        <p class="alignable pull-left" style="display: inline-block">
-            Built with <a href="http://jekyllrb.com/" class="different-highlight underline">Jekyll</a> and <a href="http://ankitsultana.com/accent/" class="different-highlight underline">accent</a>
-        </p>
-    </div> -->
 </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="https://vinci.space/js/rrssb.min.js"></script>
+    <script src="/js/rrssb.min.js"></script>
 
-    
-        <script src="js/anchor.min.js"></script>
-        <script>
-        anchors.options.placement = 'right'
-        anchors.options.class = 'hide'
-        anchors.add()
-        anchors.remove('.post-title')
-        </script>
-    
-    
-        <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-69243698-7', 'auto');
-  ga('send', 'pageview');
-
-</script>
-
-    
 </body>
