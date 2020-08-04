@@ -1,7 +1,7 @@
 function Snake() {
 
   this.initialization = function() {
-    this.speed = createVector(0,0);
+    this.speed = createVector(1,0);
     this.body = [];
     this.body[0] = createVector(10, 50);
     this.grow();
