@@ -12,6 +12,7 @@ function setup() {
 
   f = new Food();
   f.initialization();
+  createP('Press ↑ ← ↓ → 开始游戏');
 }
 
 
