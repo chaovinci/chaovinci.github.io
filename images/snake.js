@@ -1,15 +1,10 @@
 function Snake() {
-  // this.x = 10 * gridWidth;
-  // this.y = 10 * gridWidth;
-  // this.direction = [1, 0];
-  // this.snakeLength = 1;
-  
 
   this.initialization = function() {
     this.speed = createVector(0,0);
     this.body = [];
-    this.body[0] = createVector(width/2, height/2);
-    // this.body[1] = createVector(width/2 - gridWidth, height/2);
+    this.body[0] = createVector(10, 50);
+    this.grow();
   }
 
 
